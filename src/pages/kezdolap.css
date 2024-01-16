@@ -1,0 +1,62 @@
+.kezdolap {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 800px;
+    flex-wrap: wrap;
+  }
+  
+  .holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    gap: 10px;
+    width: 400px;
+    height: auto;
+  }
+  
+  .name-holder {
+    display: flex;
+    align-items: center;
+    color: #a3c6c4;
+    font-size: 2rem;
+  }
+  
+  .text-holder {
+    color: #e0e7e9;
+    text-align: justify;
+    text-indent: 15px;
+    font-size: 20px;
+  }
+  
+  .img-holder {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  img {
+    height: 500px;
+    width: 399px;
+  }
+  
+  
+  @media (max-width: 600px) {
+    .kezdolap {
+      height: auto;
+    }
+  
+    .holder {
+      width: 100%;
+    }
+  
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  @media (max-width: 425px){
+    .kezdolap{
+      padding: 10px;
+    }
+  }

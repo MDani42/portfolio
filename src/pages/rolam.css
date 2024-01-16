@@ -1,0 +1,31 @@
+.tarolo{
+    font-size: 20px;
+    text-align: center;
+    height: auto;
+}
+h3{
+    color: #E0E7E9;
+}
+.schools, .munkahelyek{
+    text-align: center;
+    height: auto;
+    width: auto;
+    color: #A3C6C4;
+}
+@media (max-width: 768px) {
+    .tarolo{
+        font-size: 10px;
+        padding-bottom: 20px;
+    }
+}
+@media (max-width: 425px){
+    .tarolo{
+        padding: 10px;
+    }
+    h3{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 25px;
+    }
+}

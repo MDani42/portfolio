@@ -1,0 +1,43 @@
+.projetek {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 767px;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.proj {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    gap: 5px;
+}
+
+.propic {
+    height: auto;
+    width: 100%;
+    max-width: 600px;
+}
+
+.prolink {
+    font-size: 2rem;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .projetek {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .proj {
+        width: 100%;
+    }
+
+    .propic {
+        max-width: 100%;
+    }
+}
