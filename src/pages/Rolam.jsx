@@ -15,7 +15,7 @@ const Rolam = () => {
       <div className='munkahelyek'>
         <h3>Munkahelyek</h3>
         <p>Az első munkahelyem a Metmaxban volt ahol CNC gépkezelőként dolgoztam 5 hónapig.</p>
-        <p>Ezután a Potán kezdtem el dolgozni 4 órában, mellette pedig tanultam programozni. Ahol jelenleg is dolgozom.</p>
+        <p>Ezután a Postán kezdtem el dolgozni 4 órában, mellette pedig tanultam programozni. Ahol jelenleg is dolgozom.</p>
       </div>
     </div>
   )
